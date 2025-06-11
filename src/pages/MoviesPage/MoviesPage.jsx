@@ -48,7 +48,7 @@ const MoviesPage = () => {
   }, [searchParams]);
 
   return (
-    <div>
+    <div className={css.container}>
       <h1>Search Movies</h1>
       <form onSubmit={handleSearch} className={css.searchForm}>
         <input

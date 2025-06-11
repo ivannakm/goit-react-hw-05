@@ -1,5 +1,9 @@
+/* Loader.module.css */
 .loader {
-  text-align: center;
-  font-size: 18px;
-  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 2rem;
+  color: #6a0dad;
 }
